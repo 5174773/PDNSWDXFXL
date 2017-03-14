@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LGTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +19,7 @@
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     
-    _window.rootViewController = [[UITabBarController alloc]init];
+    _window.rootViewController = [[LGTabBarController alloc]init];
     
     
     [_window makeKeyAndVisible];
