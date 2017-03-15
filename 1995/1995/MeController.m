@@ -17,82 +17,42 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    self.navigationItem.title = @"我的";
     
-    // Configure the cell...
+    //右边
+    UIButton *setbotton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [setbotton setImage:[UIImage imageNamed:@"mine-setting-icon"] forState:UIControlStateNormal];
+    [setbotton setImage:[UIImage imageNamed:@"mine-setting-iconClick"] forState:UIControlStateHighlighted];
+    [setbotton addTarget:self action:@selector(meClick) forControlEvents:UIControlEventTouchUpInside];
+    [setbotton sizeToFit];
+    UIBarButtonItem *setbotton1 = [[UIBarButtonItem alloc]initWithCustomView:setbotton];
     
-    return cell;
+    UIButton *botton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [botton setImage:[UIImage imageNamed:@"mine-moon-icon"] forState:UIControlStateNormal];
+    [botton setImage:[UIImage imageNamed:@"mine-moon-iconClick"] forState:UIControlStateHighlighted];
+    [botton addTarget:self action:@selector(moonClick) forControlEvents:UIControlEventTouchUpInside];
+    [botton sizeToFit];
+    UIBarButtonItem *moonbotton1 = [[UIBarButtonItem alloc]initWithCustomView:botton];
+    
+    
+    //添加到系统
+    self.navigationItem.rightBarButtonItems = @[setbotton1,moonbotton1];
+    
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
+- (void)meClick {
+   
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
+    XMGLogFunc
+};
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
+- (void)moonClick {
+    
+    
+    XMGLogFunc
+};
 
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

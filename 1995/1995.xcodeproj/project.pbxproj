@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		321519191E78E0F900FE5FA3 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		321F23AB1E669C9B0095760A /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeController.h; path = ../../MeController.h; sourceTree = "<group>"; };
 		321F23AC1E669C9B0095760A /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeController.m; path = ../../MeController.m; sourceTree = "<group>"; };
 		321F23AE1E669CBC0095760A /* NewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewController.h; path = ../../NewController.h; sourceTree = "<group>"; };
@@ -135,8 +136,8 @@
 		3215190C1E78DAC000FE5FA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				321F23AC1E669C9B0095760A /* MeController.m */,
 				321F23AB1E669C9B0095760A /* MeController.h */,
+				321F23AC1E669C9B0095760A /* MeController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,8 +169,8 @@
 		321519101E78DB2C00FE5FA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				321F23B51E669D010095760A /* FollowController.m */,
 				321F23B41E669D010095760A /* FollowController.h */,
+				321F23B51E669D010095760A /* FollowController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -228,6 +229,7 @@
 				32CB9C5E1E659B1200881F33 /* LGTabBarController.m */,
 				32CB9C601E65B78000881F33 /* LJGNB.h */,
 				32CB9C611E65B78000881F33 /* LJGNB.m */,
+				321519191E78E0F900FE5FA3 /* Header.h */,
 			);
 			name = "其他";
 			sourceTree = "<group>";
@@ -572,6 +574,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = /Users/ljg/PDNSWDXFXL/1995/1995/Header.h;
 				INFOPLIST_FILE = 1995/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-995.-995";
@@ -584,6 +587,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = /Users/ljg/PDNSWDXFXL/1995/1995/Header.h;
 				INFOPLIST_FILE = 1995/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-995.-995";
