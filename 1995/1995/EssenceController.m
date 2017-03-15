@@ -17,11 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    //设置顶部导航栏图片
+//    UIImageView *imageview = [[UIImageView alloc]init];
+//    imageview.image = [UIImage imageNamed:@"MainTitle"];
+//    [imageview sizeToFit];
+//    self.navigationItem.titleView =imageview;
+    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    
+    
+    
+   
 }
 
 - (void)didReceiveMemoryWarning {

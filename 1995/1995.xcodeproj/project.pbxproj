@@ -38,14 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		321F23AB1E669C9B0095760A /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
-		321F23AC1E669C9B0095760A /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
-		321F23AE1E669CBC0095760A /* NewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewController.h; sourceTree = "<group>"; };
-		321F23AF1E669CBC0095760A /* NewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewController.m; sourceTree = "<group>"; };
-		321F23B11E669CE00095760A /* EssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceController.h; sourceTree = "<group>"; };
-		321F23B21E669CE00095760A /* EssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceController.m; sourceTree = "<group>"; };
-		321F23B41E669D010095760A /* FollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowController.h; sourceTree = "<group>"; };
-		321F23B51E669D010095760A /* FollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowController.m; sourceTree = "<group>"; };
+		321F23AB1E669C9B0095760A /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeController.h; path = ../../MeController.h; sourceTree = "<group>"; };
+		321F23AC1E669C9B0095760A /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeController.m; path = ../../MeController.m; sourceTree = "<group>"; };
+		321F23AE1E669CBC0095760A /* NewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewController.h; path = ../../NewController.h; sourceTree = "<group>"; };
+		321F23AF1E669CBC0095760A /* NewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewController.m; path = ../../NewController.m; sourceTree = "<group>"; };
+		321F23B11E669CE00095760A /* EssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EssenceController.h; path = ../../EssenceController.h; sourceTree = "<group>"; };
+		321F23B21E669CE00095760A /* EssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EssenceController.m; path = ../../EssenceController.m; sourceTree = "<group>"; };
+		321F23B41E669D010095760A /* FollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FollowController.h; path = ../../FollowController.h; sourceTree = "<group>"; };
+		321F23B51E669D010095760A /* FollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FollowController.m; path = ../../FollowController.m; sourceTree = "<group>"; };
 		32CB9C231E65891300881F33 /* 1995.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1995.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CB9C271E65891300881F33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CB9C291E65891300881F33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +89,149 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		321519071E78DA8200FE5FA3 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				321519081E78DA8200FE5FA3 /* Controller */,
+				321519091E78DA8200FE5FA3 /* Model */,
+				3215190A1E78DA8200FE5FA3 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		321519081E78DA8200FE5FA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				321F23B11E669CE00095760A /* EssenceController.h */,
+				321F23B21E669CE00095760A /* EssenceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		321519091E78DA8200FE5FA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3215190A1E78DA8200FE5FA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3215190B1E78DAC000FE5FA3 /* Me - 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				3215190C1E78DAC000FE5FA3 /* Controller */,
+				3215190D1E78DAC000FE5FA3 /* Model */,
+				3215190E1E78DAC000FE5FA3 /* View */,
+			);
+			path = "Me - 我的";
+			sourceTree = "<group>";
+		};
+		3215190C1E78DAC000FE5FA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				321F23AC1E669C9B0095760A /* MeController.m */,
+				321F23AB1E669C9B0095760A /* MeController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3215190D1E78DAC000FE5FA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3215190E1E78DAC000FE5FA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3215190F1E78DB2C00FE5FA3 /* Follow 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				321519101E78DB2C00FE5FA3 /* Controller */,
+				321519111E78DB2C00FE5FA3 /* Model */,
+				321519121E78DB2C00FE5FA3 /* View */,
+			);
+			path = "Follow 关注";
+			sourceTree = "<group>";
+		};
+		321519101E78DB2C00FE5FA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				321F23B51E669D010095760A /* FollowController.m */,
+				321F23B41E669D010095760A /* FollowController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		321519111E78DB2C00FE5FA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		321519121E78DB2C00FE5FA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		321519131E78DB3200FE5FA3 /* New  新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				321519141E78DB3200FE5FA3 /* Controller */,
+				321519151E78DB3200FE5FA3 /* Model */,
+				321519161E78DB3200FE5FA3 /* View */,
+			);
+			path = "New  新帖";
+			sourceTree = "<group>";
+		};
+		321519141E78DB3200FE5FA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				321F23AF1E669CBC0095760A /* NewController.m */,
+				321F23AE1E669CBC0095760A /* NewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		321519151E78DB3200FE5FA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		321519161E78DB3200FE5FA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		321519171E78DB4500FE5FA3 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				32CB9C5D1E659B1200881F33 /* LGTabBarController.h */,
+				32CB9C5E1E659B1200881F33 /* LGTabBarController.m */,
+				32CB9C601E65B78000881F33 /* LJGNB.h */,
+				32CB9C611E65B78000881F33 /* LJGNB.m */,
+			);
+			name = "其他";
+			sourceTree = "<group>";
+		};
 		32CB9C1A1E65891300881F33 = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +256,6 @@
 			isa = PBXGroup;
 			children = (
 				32CB9C5C1E659AEF00881F33 /* Class */,
-				32CB9C5D1E659B1200881F33 /* LGTabBarController.h */,
-				32CB9C5E1E659B1200881F33 /* LGTabBarController.m */,
-				32CB9C601E65B78000881F33 /* LJGNB.h */,
-				32CB9C611E65B78000881F33 /* LJGNB.m */,
 				32CB9C261E65891300881F33 /* Supporting Files */,
 			);
 			path = 1995;
@@ -155,14 +294,11 @@
 		32CB9C5C1E659AEF00881F33 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				321F23AB1E669C9B0095760A /* MeController.h */,
-				321F23AC1E669C9B0095760A /* MeController.m */,
-				321F23AE1E669CBC0095760A /* NewController.h */,
-				321F23AF1E669CBC0095760A /* NewController.m */,
-				321F23B11E669CE00095760A /* EssenceController.h */,
-				321F23B21E669CE00095760A /* EssenceController.m */,
-				321F23B41E669D010095760A /* FollowController.h */,
-				321F23B51E669D010095760A /* FollowController.m */,
+				321519071E78DA8200FE5FA3 /* Essence-精华 */,
+				3215190B1E78DAC000FE5FA3 /* Me - 我的 */,
+				3215190F1E78DB2C00FE5FA3 /* Follow 关注 */,
+				321519131E78DB3200FE5FA3 /* New  新帖 */,
+				321519171E78DB4500FE5FA3 /* 其他 */,
 			);
 			name = Class;
 			sourceTree = "<group>";
