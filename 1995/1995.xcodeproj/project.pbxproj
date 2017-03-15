@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3215191C1E78E99100FE5FA3 /* RecommendFollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215191B1E78E99100FE5FA3 /* RecommendFollowController.m */; };
+		321519271E78F69700FE5FA3 /* LJGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321519261E78F69700FE5FA3 /* LJGNavigationController.m */; };
 		321F23AD1E669C9B0095760A /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23AC1E669C9B0095760A /* MeController.m */; };
 		321F23B01E669CBC0095760A /* NewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23AF1E669CBC0095760A /* NewController.m */; };
 		321F23B31E669CE00095760A /* EssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23B21E669CE00095760A /* EssenceController.m */; };
@@ -39,6 +41,10 @@
 
 /* Begin PBXFileReference section */
 		321519191E78E0F900FE5FA3 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		3215191A1E78E99100FE5FA3 /* RecommendFollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendFollowController.h; sourceTree = "<group>"; };
+		3215191B1E78E99100FE5FA3 /* RecommendFollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendFollowController.m; sourceTree = "<group>"; };
+		321519251E78F69700FE5FA3 /* LJGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGNavigationController.h; sourceTree = "<group>"; };
+		321519261E78F69700FE5FA3 /* LJGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGNavigationController.m; sourceTree = "<group>"; };
 		321F23AB1E669C9B0095760A /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeController.h; path = ../../MeController.h; sourceTree = "<group>"; };
 		321F23AC1E669C9B0095760A /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeController.m; path = ../../MeController.m; sourceTree = "<group>"; };
 		321F23AE1E669CBC0095760A /* NewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewController.h; path = ../../NewController.h; sourceTree = "<group>"; };
@@ -171,6 +177,8 @@
 			children = (
 				321F23B41E669D010095760A /* FollowController.h */,
 				321F23B51E669D010095760A /* FollowController.m */,
+				3215191A1E78E99100FE5FA3 /* RecommendFollowController.h */,
+				3215191B1E78E99100FE5FA3 /* RecommendFollowController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -202,8 +210,8 @@
 		321519141E78DB3200FE5FA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				321F23AF1E669CBC0095760A /* NewController.m */,
 				321F23AE1E669CBC0095760A /* NewController.h */,
+				321F23AF1E669CBC0095760A /* NewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -225,6 +233,8 @@
 		321519171E78DB4500FE5FA3 /* 其他 */ = {
 			isa = PBXGroup;
 			children = (
+				3215191E1E78F52800FE5FA3 /* Category */,
+				3215191D1E78F50200FE5FA3 /* Controller */,
 				32CB9C5D1E659B1200881F33 /* LGTabBarController.h */,
 				32CB9C5E1E659B1200881F33 /* LGTabBarController.m */,
 				32CB9C601E65B78000881F33 /* LJGNB.h */,
@@ -232,6 +242,22 @@
 				321519191E78E0F900FE5FA3 /* Header.h */,
 			);
 			name = "其他";
+			sourceTree = "<group>";
+		};
+		3215191D1E78F50200FE5FA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				321519251E78F69700FE5FA3 /* LJGNavigationController.h */,
+				321519261E78F69700FE5FA3 /* LJGNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3215191E1E78F52800FE5FA3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		32CB9C1A1E65891300881F33 = {
@@ -444,6 +470,8 @@
 				32CB9C5F1E659B1200881F33 /* LGTabBarController.m in Sources */,
 				321F23B01E669CBC0095760A /* NewController.m in Sources */,
 				32CB9C281E65891300881F33 /* main.m in Sources */,
+				3215191C1E78E99100FE5FA3 /* RecommendFollowController.m in Sources */,
+				321519271E78F69700FE5FA3 /* LJGNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

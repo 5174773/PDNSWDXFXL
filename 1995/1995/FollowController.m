@@ -7,6 +7,7 @@
 //
 
 #import "FollowController.h"
+#import "RecommendFollowController.h"
 
 @interface FollowController ()
 
@@ -31,6 +32,9 @@
 - (void)friendsClick {
     
     XMGLogFunc
+    RecommendFollowController *recommend = [[RecommendFollowController alloc]init];
+    
+    [self.navigationController pushViewController:recommend animated:YES];
     
 };
 
