@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3215191C1E78E99100FE5FA3 /* RecommendFollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215191B1E78E99100FE5FA3 /* RecommendFollowController.m */; };
 		321519271E78F69700FE5FA3 /* LJGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321519261E78F69700FE5FA3 /* LJGNavigationController.m */; };
 		321F23AD1E669C9B0095760A /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23AC1E669C9B0095760A /* MeController.m */; };
-		321F23B01E669CBC0095760A /* NewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23AF1E669CBC0095760A /* NewController.m */; };
 		321F23B31E669CE00095760A /* EssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23B21E669CE00095760A /* EssenceController.m */; };
 		321F23B61E669D010095760A /* FollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23B51E669D010095760A /* FollowController.m */; };
+		326AA85B1E7F846900A9BE97 /* NewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA85A1E7F846900A9BE97 /* NewController.m */; };
+		326AA85F1E7F860D00A9BE97 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA85D1E7F860D00A9BE97 /* Login.m */; };
+		326AA8601E7F860D00A9BE97 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 326AA85E1E7F860D00A9BE97 /* Login.xib */; };
+		326AA8631E7F861900A9BE97 /* AFViewShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA8621E7F861900A9BE97 /* AFViewShaker.m */; };
+		326AA8651E7F866900A9BE97 /* FollowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 326AA8641E7F866900A9BE97 /* FollowController.xib */; };
+		326AA86B1E7F86AB00A9BE97 /* RecommendFollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA86A1E7F86AB00A9BE97 /* RecommendFollowController.m */; };
 		32CB9C281E65891300881F33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB9C271E65891300881F33 /* main.m */; };
 		32CB9C2B1E65891300881F33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB9C2A1E65891300881F33 /* AppDelegate.m */; };
 		32CB9C331E65891300881F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CB9C321E65891300881F33 /* Assets.xcassets */; };
@@ -41,18 +45,24 @@
 
 /* Begin PBXFileReference section */
 		321519191E78E0F900FE5FA3 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		3215191A1E78E99100FE5FA3 /* RecommendFollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendFollowController.h; sourceTree = "<group>"; };
-		3215191B1E78E99100FE5FA3 /* RecommendFollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendFollowController.m; sourceTree = "<group>"; };
 		321519251E78F69700FE5FA3 /* LJGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGNavigationController.h; sourceTree = "<group>"; };
 		321519261E78F69700FE5FA3 /* LJGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGNavigationController.m; sourceTree = "<group>"; };
 		321F23AB1E669C9B0095760A /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeController.h; path = ../../MeController.h; sourceTree = "<group>"; };
 		321F23AC1E669C9B0095760A /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeController.m; path = ../../MeController.m; sourceTree = "<group>"; };
-		321F23AE1E669CBC0095760A /* NewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewController.h; path = ../../NewController.h; sourceTree = "<group>"; };
-		321F23AF1E669CBC0095760A /* NewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewController.m; path = ../../NewController.m; sourceTree = "<group>"; };
 		321F23B11E669CE00095760A /* EssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EssenceController.h; path = ../../EssenceController.h; sourceTree = "<group>"; };
 		321F23B21E669CE00095760A /* EssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EssenceController.m; path = ../../EssenceController.m; sourceTree = "<group>"; };
 		321F23B41E669D010095760A /* FollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FollowController.h; path = ../../FollowController.h; sourceTree = "<group>"; };
 		321F23B51E669D010095760A /* FollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FollowController.m; path = ../../FollowController.m; sourceTree = "<group>"; };
+		326AA8591E7F846900A9BE97 /* NewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewController.h; path = 1995/NewController.h; sourceTree = SOURCE_ROOT; };
+		326AA85A1E7F846900A9BE97 /* NewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewController.m; path = 1995/NewController.m; sourceTree = SOURCE_ROOT; };
+		326AA85C1E7F860D00A9BE97 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		326AA85D1E7F860D00A9BE97 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		326AA85E1E7F860D00A9BE97 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		326AA8611E7F861900A9BE97 /* AFViewShaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewShaker.h; sourceTree = "<group>"; };
+		326AA8621E7F861900A9BE97 /* AFViewShaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewShaker.m; sourceTree = "<group>"; };
+		326AA8641E7F866900A9BE97 /* FollowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowController.xib; sourceTree = "<group>"; };
+		326AA8691E7F86AB00A9BE97 /* RecommendFollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendFollowController.h; sourceTree = "<group>"; };
+		326AA86A1E7F86AB00A9BE97 /* RecommendFollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendFollowController.m; sourceTree = "<group>"; };
 		32CB9C231E65891300881F33 /* 1995.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1995.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CB9C271E65891300881F33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CB9C291E65891300881F33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,10 +185,11 @@
 		321519101E78DB2C00FE5FA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				326AA8691E7F86AB00A9BE97 /* RecommendFollowController.h */,
+				326AA86A1E7F86AB00A9BE97 /* RecommendFollowController.m */,
 				321F23B41E669D010095760A /* FollowController.h */,
 				321F23B51E669D010095760A /* FollowController.m */,
-				3215191A1E78E99100FE5FA3 /* RecommendFollowController.h */,
-				3215191B1E78E99100FE5FA3 /* RecommendFollowController.m */,
+				326AA8641E7F866900A9BE97 /* FollowController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -210,8 +221,8 @@
 		321519141E78DB3200FE5FA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				321F23AE1E669CBC0095760A /* NewController.h */,
-				321F23AF1E669CBC0095760A /* NewController.m */,
+				326AA8591E7F846900A9BE97 /* NewController.h */,
+				326AA85A1E7F846900A9BE97 /* NewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -247,6 +258,11 @@
 		3215191D1E78F50200FE5FA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				326AA8611E7F861900A9BE97 /* AFViewShaker.h */,
+				326AA8621E7F861900A9BE97 /* AFViewShaker.m */,
+				326AA85C1E7F860D00A9BE97 /* Login.h */,
+				326AA85D1E7F860D00A9BE97 /* Login.m */,
+				326AA85E1E7F860D00A9BE97 /* Login.xib */,
 				321519251E78F69700FE5FA3 /* LJGNavigationController.h */,
 				321519261E78F69700FE5FA3 /* LJGNavigationController.m */,
 			);
@@ -438,6 +454,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CB9C331E65891300881F33 /* Assets.xcassets in Resources */,
+				326AA8601E7F860D00A9BE97 /* Login.xib in Resources */,
+				326AA8651E7F866900A9BE97 /* FollowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,15 +481,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				321F23B31E669CE00095760A /* EssenceController.m in Sources */,
+				326AA85F1E7F860D00A9BE97 /* Login.m in Sources */,
 				32CB9C2B1E65891300881F33 /* AppDelegate.m in Sources */,
 				321F23AD1E669C9B0095760A /* MeController.m in Sources */,
 				32CB9C621E65B78000881F33 /* LJGNB.m in Sources */,
 				321F23B61E669D010095760A /* FollowController.m in Sources */,
 				32CB9C5F1E659B1200881F33 /* LGTabBarController.m in Sources */,
-				321F23B01E669CBC0095760A /* NewController.m in Sources */,
 				32CB9C281E65891300881F33 /* main.m in Sources */,
-				3215191C1E78E99100FE5FA3 /* RecommendFollowController.m in Sources */,
+				326AA8631E7F861900A9BE97 /* AFViewShaker.m in Sources */,
 				321519271E78F69700FE5FA3 /* LJGNavigationController.m in Sources */,
+				326AA85B1E7F846900A9BE97 /* NewController.m in Sources */,
+				326AA86B1E7F86AB00A9BE97 /* RecommendFollowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

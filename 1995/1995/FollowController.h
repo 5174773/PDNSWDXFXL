@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FollowController : UITableViewController
+@interface FollowController : UIViewController
 
 @end

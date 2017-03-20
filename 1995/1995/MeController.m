@@ -18,6 +18,13 @@
     [super viewDidLoad];
     
     
+    //CELL的内边距
+    self.tableView.sectionHeaderHeight = 0;
+    self.tableView.sectionFooterHeight = 10;
+    
+    self.tableView.contentInset = UIEdgeInsetsMake(-25, 0, 0, 0);
+    
+    
     self.navigationItem.title = @"我的";
     
     //右边
@@ -52,6 +59,51 @@
     
     XMGLogFunc
 };
+
+- (instancetype)init
+{
+    return [self initWithStyle:UITableViewStyleGrouped];
+}
+
+
+//数据源方法
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 3;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // 1.确定重用标识符
+    static NSString *ID = @"cell";
+    //重缓存池中取
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    // 如果空就创建
+    if (!cell) {
+        cell = [[UITableViewCell alloc]init];
+        
+    }
+    return cell;
+    
+}
+
+//tableview的代理方法
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath
+{
+    if (indexPath.section == 2) return 200;
+    return 44;
+    
+    
+    
+}
+
+
+
+
 
 
 

@@ -8,6 +8,7 @@
 
 #import "FollowController.h"
 #import "RecommendFollowController.h"
+#import "Login.h"
 
 @interface FollowController ()
 
@@ -18,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    self.navigationItem.title =@"我的关注";
+    
+  
     
     //左边
     UIButton *botton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -37,6 +40,14 @@
     [self.navigationController pushViewController:recommend animated:YES];
     
 };
+- (IBAction)Signin:(id)sender {
+ 
+    Login *login = [[Login alloc]init];
+    
+    [self presentViewController:login animated:YES completion:nil];
+   
+   
+}
 
 
 @end
