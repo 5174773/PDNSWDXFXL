@@ -87,6 +87,23 @@
         cell = [[UITableViewCell alloc]init];
         
     }
+    
+    //设置数据
+    if (indexPath.section == 0) {
+        cell.textLabel.text = @"登录/注册";
+        cell.imageView.image = [UIImage imageNamed:@"setup-head-default"];
+    }
+    
+    if (indexPath.section == 1) {
+        cell.textLabel.text = @"离线下载";
+    }
+    
+    if (indexPath.section == 2) {
+        
+        
+    }
+    
+    
     return cell;
     
 }

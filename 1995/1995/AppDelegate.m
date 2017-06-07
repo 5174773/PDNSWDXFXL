@@ -25,6 +25,11 @@
     [_window makeKeyAndVisible];
     
     
+//    设置圆角
+    _window.layer.cornerRadius = 4;
+    [_window.layer setMasksToBounds:YES];
+    
+    
     
     return YES;
 }

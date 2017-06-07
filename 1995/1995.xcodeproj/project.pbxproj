@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0DD7CCB99601070DD00E6BE0 /* libPods-1995.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F00ADEB3290C853EC9955E7C /* libPods-1995.a */; };
 		321519271E78F69700FE5FA3 /* LJGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321519261E78F69700FE5FA3 /* LJGNavigationController.m */; };
-		321F23AD1E669C9B0095760A /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23AC1E669C9B0095760A /* MeController.m */; };
 		321F23B31E669CE00095760A /* EssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23B21E669CE00095760A /* EssenceController.m */; };
 		321F23B61E669D010095760A /* FollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321F23B51E669D010095760A /* FollowController.m */; };
 		326AA85B1E7F846900A9BE97 /* NewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA85A1E7F846900A9BE97 /* NewController.m */; };
@@ -25,6 +24,10 @@
 		32CB9C4C1E65891300881F33 /* _995UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB9C4B1E65891300881F33 /* _995UITests.m */; };
 		32CB9C5F1E659B1200881F33 /* LGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB9C5E1E659B1200881F33 /* LGTabBarController.m */; };
 		32CB9C621E65B78000881F33 /* LJGNB.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB9C611E65B78000881F33 /* LJGNB.m */; };
+		32FE29B91EE7E41500D0D3F8 /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE29B81EE7E41500D0D3F8 /* MeController.m */; };
+		32FE29BC1EE7E9BD00D0D3F8 /* iconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE29BB1EE7E9BD00D0D3F8 /* iconModel.m */; };
+		32FE29BF1EE7EB3A00D0D3F8 /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE29BE1EE7EB3A00D0D3F8 /* FooterView.m */; };
+		32FE29C21EE7F41300D0D3F8 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE29C11EE7F41300D0D3F8 /* UIView+XMGExtension.m */; };
 		B834CA40871B049CA5A6EBCF /* libPods-1995Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E15476CAC1CF93449B98F1A4 /* libPods-1995Tests.a */; };
 		C473DBA2F5103BFCC87E5D2D /* libPods-1995UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F544D3F4B43393C5A9B4C96 /* libPods-1995UITests.a */; };
 /* End PBXBuildFile section */
@@ -50,8 +53,6 @@
 		321519191E78E0F900FE5FA3 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		321519251E78F69700FE5FA3 /* LJGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGNavigationController.h; sourceTree = "<group>"; };
 		321519261E78F69700FE5FA3 /* LJGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGNavigationController.m; sourceTree = "<group>"; };
-		321F23AB1E669C9B0095760A /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeController.h; path = ../../MeController.h; sourceTree = "<group>"; };
-		321F23AC1E669C9B0095760A /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeController.m; path = ../../MeController.m; sourceTree = "<group>"; };
 		321F23B11E669CE00095760A /* EssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EssenceController.h; path = ../../EssenceController.h; sourceTree = "<group>"; };
 		321F23B21E669CE00095760A /* EssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EssenceController.m; path = ../../EssenceController.m; sourceTree = "<group>"; };
 		321F23B41E669D010095760A /* FollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FollowController.h; path = ../../FollowController.h; sourceTree = "<group>"; };
@@ -82,6 +83,14 @@
 		32CB9C5E1E659B1200881F33 /* LGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTabBarController.m; sourceTree = "<group>"; };
 		32CB9C601E65B78000881F33 /* LJGNB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGNB.h; sourceTree = "<group>"; };
 		32CB9C611E65B78000881F33 /* LJGNB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGNB.m; sourceTree = "<group>"; };
+		32FE29B71EE7E41500D0D3F8 /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeController.h; path = 1995/MeController.h; sourceTree = SOURCE_ROOT; };
+		32FE29B81EE7E41500D0D3F8 /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeController.m; path = 1995/MeController.m; sourceTree = SOURCE_ROOT; };
+		32FE29BA1EE7E9BD00D0D3F8 /* iconModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iconModel.h; path = 1995/iconModel.h; sourceTree = SOURCE_ROOT; };
+		32FE29BB1EE7E9BD00D0D3F8 /* iconModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iconModel.m; path = 1995/iconModel.m; sourceTree = SOURCE_ROOT; };
+		32FE29BD1EE7EB3A00D0D3F8 /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FooterView.h; path = 1995/FooterView.h; sourceTree = SOURCE_ROOT; };
+		32FE29BE1EE7EB3A00D0D3F8 /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FooterView.m; path = 1995/FooterView.m; sourceTree = SOURCE_ROOT; };
+		32FE29C01EE7F41300D0D3F8 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		32FE29C11EE7F41300D0D3F8 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
 		7FD5CBE81BFE989B8680C9D4 /* Pods-1995UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1995UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-1995UITests/Pods-1995UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		983B78539ECAF6A692D99050 /* Pods-1995Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1995Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-1995Tests/Pods-1995Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F544D3F4B43393C5A9B4C96 /* libPods-1995UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-1995UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,8 +186,8 @@
 		3215190C1E78DAC000FE5FA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				321F23AB1E669C9B0095760A /* MeController.h */,
-				321F23AC1E669C9B0095760A /* MeController.m */,
+				32FE29B71EE7E41500D0D3F8 /* MeController.h */,
+				32FE29B81EE7E41500D0D3F8 /* MeController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +195,8 @@
 		3215190D1E78DAC000FE5FA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				32FE29BA1EE7E9BD00D0D3F8 /* iconModel.h */,
+				32FE29BB1EE7E9BD00D0D3F8 /* iconModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +204,8 @@
 		3215190E1E78DAC000FE5FA3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				32FE29BD1EE7EB3A00D0D3F8 /* FooterView.h */,
+				32FE29BE1EE7EB3A00D0D3F8 /* FooterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +310,8 @@
 		3215191E1E78F52800FE5FA3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				32FE29C01EE7F41300D0D3F8 /* UIView+XMGExtension.h */,
+				32FE29C11EE7F41300D0D3F8 /* UIView+XMGExtension.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -667,10 +682,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FE29BC1EE7E9BD00D0D3F8 /* iconModel.m in Sources */,
+				32FE29C21EE7F41300D0D3F8 /* UIView+XMGExtension.m in Sources */,
+				32FE29BF1EE7EB3A00D0D3F8 /* FooterView.m in Sources */,
 				321F23B31E669CE00095760A /* EssenceController.m in Sources */,
 				326AA85F1E7F860D00A9BE97 /* Login.m in Sources */,
 				32CB9C2B1E65891300881F33 /* AppDelegate.m in Sources */,
-				321F23AD1E669C9B0095760A /* MeController.m in Sources */,
 				32CB9C621E65B78000881F33 /* LJGNB.m in Sources */,
 				321F23B61E669D010095760A /* FollowController.m in Sources */,
 				32CB9C5F1E659B1200881F33 /* LGTabBarController.m in Sources */,
@@ -678,6 +695,7 @@
 				326AA8631E7F861900A9BE97 /* AFViewShaker.m in Sources */,
 				321519271E78F69700FE5FA3 /* LJGNavigationController.m in Sources */,
 				326AA85B1E7F846900A9BE97 /* NewController.m in Sources */,
+				32FE29B91EE7E41500D0D3F8 /* MeController.m in Sources */,
 				326AA86B1E7F86AB00A9BE97 /* RecommendFollowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
